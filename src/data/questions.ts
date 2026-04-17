@@ -124,7 +124,7 @@ export const QUESTIONS: Question[] = [
 
   // ---------- WEEK 8 ----------
   { week:8, q:1, question:"In group shelterwood system, the regeneration area is increased", options:["centrifugally around gaps","centripetally around gaps","parallel to gaps","perpendicular to gaps"], answerIndex:0, trick:"Outward from gap = centrifugal." },
-  { week:8, q:2, question:"Correct sequence for shelterwood system?", options:["Prep → Secondary → Seeding → Final","Prep → Seeding → Secondary → Final","Prep → Secondary → Seeding → Final","Prep → Seeding → Secondary → Final (alt)"], answerIndex:1, trick:"P-S-S-F: Prep → Seeding → Secondary → Final." },
+  { week:8, q:2, question:"Correct sequence for shelterwood system?", options:["Prep → Secondary → Seedling → Final","Prep → Seedling → Secondary → Final","Prep → Secondary → Seeding → Final","Prep → Seeding → Secondary → Final"], answerIndex:3, trick:"P-S-S-F: Prep → Seeding → Secondary → Final." },
   { week:8, q:3, question:"Shelterwood system results in", options:["even aged stand with natural aesthetics","even aged with artificial aesthetics","uneven aged with natural aesthetics","uneven aged with artificial aesthetics"], answerIndex:0, trick:"Even-aged + natural look." },
   { week:8, q:4, question:"Catchment areas are best suited for", options:["clear felling","selection system","uniform shelterwood","group shelterwood"], answerIndex:1, trick:"Selection = soil protection." },
   { week:8, q:5, question:"Trees not putting increment are removed during", options:["preparatory felling","seeding felling","secondary felling","final felling"], answerIndex:0, trick:"Preparatory = remove non-growers." },
@@ -176,9 +176,9 @@ export const QUESTIONS: Question[] = [
   { week:12, q:3, question:"'Allowing some places to exist without significant human interference' defines", options:["conservation","preservation","environmentalism","all of these"], answerIndex:1, trick:"No interference = preservation." },
   { week:12, q:4, question:"For absolute form factor, base of cylinder reference is", options:["base of the tree","breast height","10% of tree height","20% of tree height"], answerIndex:0, trick:"Absolute = At base." },
   { week:12, q:5, question:"Highest organic matter content?", options:["peaty soil","alluvial soil","saline soil","red and yellow soil"], answerIndex:0, trick:"Peat = decomposed organic." },
-  { week:12, q:6, question:"For dbh=45.6 cm, ht=27 m, stem volume=1.78 m³, the artificial form factor is:", options:["0.1","0.2","0.3","0.4"], answerIndex:0, trick:"NPTEL key marks 0.1 (per official solution)." },
+  { week:12, q:6, question:"For dbh=45.6 cm, ht=27 m, stem volume=1.78 m³, the artificial form factor is:", options:["0.1","0.2","0.3","0.4"], answerIndex:3, trick:"NPTEL key marks 0.4 (per official solution)." },
   { week:12, q:7, question:"'Plant community of trees with closed canopy' is", options:["silvicultural definition","FAO definition","legal definition","ecological definition"], answerIndex:3, trick:"Ecological focus = community." },
   { week:12, q:8, question:"Laterite soil from Latin 'later' means", options:["red","brick","fertile","infertile"], answerIndex:1, trick:"Later = brick." },
-  { week:12, q:9, question:"For non-circular cross-section, girth tape:", options:["over-estimates sectional area","under-estimates sectional area","correctly estimates sectional area","none"], answerIndex:2, trick:"Per NPTEL key: correctly estimates." },
+  { week:12, q:9, question:"For non-circular cross-section, girth tape:", options:["over-estimates sectional area","under-estimates sectional area","correctly estimates sectional area","none"], answerIndex:0, trick:"Per NPTEL key: over estimates  sectional area." },
   { week:12, q:10, question:"Vertical arrangement of soil horizons is called", options:["soil texture","soil structure","soil profile","soil science"], answerIndex:2, trick:"Vertical layers = profile." },
 ];
