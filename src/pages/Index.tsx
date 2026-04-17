@@ -5,7 +5,6 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Quiz } from "@/components/Quiz";
 import { StudyView } from "@/components/StudyView";
-import { ThemeToggle } from "@/components/ThemeToggle";
 import { BookOpen, Brain, Trees, Target, Sparkles, Calendar } from "lucide-react";
 
 type View = { kind: "home" } | { kind: "study"; week: number } | { kind: "quiz"; week: number | "all" };
@@ -27,12 +26,9 @@ const Index = () => {
           backgroundSize: '60px 60px'
         }} />
         <div className="container relative py-12 md:py-20">
-          <div className="flex items-center justify-between mb-4">
-            <div className="flex items-center gap-2 opacity-90">
-              <Trees className="w-5 h-5" />
-              <span className="text-sm font-medium tracking-wider uppercase">NPTEL · Forests & Their Management</span>
-            </div>
-            <ThemeToggle />
+          <div className="flex items-center gap-2 mb-4 opacity-90">
+            <Trees className="w-5 h-5" />
+            <span className="text-sm font-medium tracking-wider uppercase">NPTEL · Forests & Their Management</span>
           </div>
           <h1 className="font-display text-4xl md:text-6xl font-bold leading-tight mb-4 max-w-3xl">
             Ace your <span className="italic">120-question</span> MOOC exam.
